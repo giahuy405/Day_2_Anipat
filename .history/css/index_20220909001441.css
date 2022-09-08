@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+html{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header__contact{
+    float: left;
+}
+.header__social{
+    float: right;
+}
+.header-top{
+    background-color: black;
+    padding: 15px;
+}
+.header__contact a{
+     color: white;
+     text-decoration: none;
+     transition: all 0.2s;
+}
+.header__contact a:hover{
+    color: red;
+}
+.header__contact span{
+    color: white;
+    margin-left: 35px;
+}
+.header__social ul,.header-bottom ul{
+    list-style: none;
+}
+.header__social li,.header-bottom li{
+    display: inline;
+    margin-left: 35px;
+}
+.header__social i{
+    color: white;
+    transition: all 0.2s;
+}
+.header__social i:hover{
+    color: red;
+}
+.header-bottom ul{
+    float: right;
+}
+.header-bottom a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.2;
+    line-height: 40px;
+}
+.header-bottom a:hover{
+    color: red;
+}
+.header-bottom{
+    padding: 20px 0;
+}
+.carousel{
+    background-image: url(../img/banner.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.carousel__content{
+    float: left;
+    width: 33%;
+    padding-top: 100px;
+}
+.carousel__dog{
+    float: left;
+    width: 67%;
+    position: absolute;
+    top: -10px;
+    left: 315px;
+    padding: 30px;
+}
+.carousel__content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+}
+.carousel__content h2{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+.carousel__content p{
+    color: white;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.carousel__content button{
+    padding: 19px 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+}
+.carousel__content button:hover{
+    background-color: orangered;
+    color: white;
+}
+.carousel__dog img{
+    width: 100%;
+   
+}
+.service{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.service-top h1{
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.service-top p{
+    padding: 0 300px;
+    color: grey;
+}
+.service-top{
+    margin-bottom: 150px;
+}
+.service-card{
+    float: left;
+    width: 33.3333%;
+}
+.service__background{
+    background-image: url(../img/service_icon_bg_1.png);
+    width: 161px;
+    height: 143px;
+    background-position: center;
+    margin: 0 auto;
+}
+.service__item{
+    border: 1px solid orangered;
+    border-radius: 15px;
+    padding: 60px 40px;
+}
+.service-card{
+    padding: 20px;
+}
+.service__item img{
+    padding-top: 35px;
+}
+.service__item h2{
+    margin: 30px 0;
+}
+.service__item p{
+    color: grey;
+    line-height: 30px;
+}
+.netcare__cat{
+    float: left;
+    width: 40%;
+}
+.netcare__content{
+    float: left;
+    width: 60%;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-left: 60px;
+}
+.netcare__cat img{
+    width: 100%;
+}
+.netcare__content h1,.care__content h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 300;
+}
+.netcare__content h2,.care__content h2{
+    color: black;
+    font-size: 55px;
+    font-weight: 700;
+}
+.netcare__content p,.care__content p{
+    color: grey;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 25px 0;
+}
+.netcare__content button,.care__content button{
+    padding: 18px 55px;
+    border-radius: 30px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.netcare__content button:hover,.care__content  button:hover{
+    background-color: white;
+    border: 1px solid orangered;
+    color: orangered;
+}
+.care__content,.care__items,.care__item{
+    float: left;
+    width: 50%;
+}
+.care__content{
+    padding-right: 50px;
+    padding-top: 150px;
+}
+.care__desc{
+    border: 1px solid orangered;
+    border-radius: 15px;
+   padding: 50px 20px;
+}
+.care__card{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.care__item{
+     padding: 15px;
+}
+.care__card--left{
+    margin-top: 150px;
+}
+.care__item h1{
+    margin: 20px 0;
+}
+.team{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.team-top h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+.team-top p{
+    padding: 0 250px;
+    letter-spacing: 1px;
+    color: grey;
+    margin: 15px;
+}
+.team__card{
+    float: left;
+    width: 33.333%;
+    padding: 15px;
+    position: relative;
+}
+.team-bottom{
+    margin-top: 100px;
+}
+.team__card img{
+    width: 100%;
+}
+.team__content{
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 10px 35px;
+    background-color:white;
+}
+.team__box{
+    position: absolute;
+    top: 295px;
+    left: 115px;
+}
+.team__content p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.banner{
+    text-align: center;
+    background-image: url(../img/contact_bg.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 110px;
+}
+.banner-top h1{
+    font-size: 50px;
+    color: white;
+}
+.banner-top p{
+    color: white;
+    font-size: 18px;
+    padding: 0 330px;
+    margin: 20px 0;
+}
